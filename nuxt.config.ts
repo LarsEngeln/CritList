@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
   app: {
-    baseURL: '/critlist/',
+    baseURL: '/CritList/',
   },
 
   compatibilityDate: '2025-01-15',
