@@ -1,6 +1,6 @@
 # ☰ **CritList** for critical listening 
 
-CritList is a browser-based workflow for close listening, note-taking, and session-based annotation of audio material. It is built for people who need to mark moments in a track, compare sessions, tag recurring observations, and export those thoughts in a structured format.
+[CritList](https://larsengeln.github.io/CritList/) is a browser-based workflow for close listening, note-taking, and session-based annotation of audio material. It is built for people who need to mark moments in a track, compare sessions, tag recurring observations, and export those thoughts in a structured format.
 
 Whether you are working through reviewing reference material, studying sonic detail, or documenting a listening session, CritList turns the act of listening into a clear, organized process.
 CritList is meant to be a useful companion for thoughtful listening: simple, flexible, and easy to keep close at hand while you work.
@@ -21,7 +21,7 @@ CritList is a lightweight Nuxt + Vue application designed to help you:
 The app is built to support close listening tasks rather than automated analysis. It helps you structure your judgments, questions, and observations while you listen.
 It is 'typing-first', so the main workflow is accessible via keyboard (no need to switch to your mouse/pad).
 
-1. Start the app and open the local development URL.
+1. Start [CritList on github-pages](https://larsengeln.github.io/CritList/) or build & open the local development URL.
 2. Drop an audio file into the interface or import a CSV session.
 3. Play the audio and add annotations by just typing.
 4. Assign annotation types to help organize your observations.

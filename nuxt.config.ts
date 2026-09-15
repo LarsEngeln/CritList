@@ -2,11 +2,18 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxt/icon'
   ],
 
   devtools: {
     enabled: true
+  },
+
+  icon: {
+    clientBundle: {
+      scan: true
+    }
   },
 
   css: ['~/assets/css/main.css'],
@@ -16,6 +23,15 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/CritList/',
+    head: {
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: './favicon.ico'
+        }
+      ]
+    }
   },
 
   compatibilityDate: '2025-01-15',
